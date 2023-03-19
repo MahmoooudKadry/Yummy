@@ -1,0 +1,102 @@
+body {
+    background-color: #0D0D0D;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.layer{
+    background-color: #0D0D0D;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999999999999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------------- Slider ----------------- */
+#slideBar {
+    z-index: 999;
+    align-items: flex-start;
+}
+
+#slideBarInner img {
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+i , ul li {
+    cursor: pointer;
+    display: none;
+}
+
+#sliderContent {
+    background-color: #0D0D0D;
+}
+
+/* -------------------- End Slider ----------------- */
+ 
+/* -------------------- Home ----------------- */
+
+
+header {
+    background-color: #0D0D0D;
+    height: auto;
+}
+
+/* -------------------- End Home ----------------- */
+
+/* -------------------- Search ----------------- */
+
+
+.searchSection {
+    display: none;
+}
+.form-group {
+    width: 35%;
+}
+/* -------------------- End Search ----------------- */
+
+.meal {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.meal-layer {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f9f6f6ca;
+    transition: top .5s;
+}
+
+
+.meal:hover .meal-layer {
+    top: 0;
+}
+
+#par {
+    position: absolute;
+    top: 30%;
+}
+
+.item {
+    cursor: pointer;
+}
+/* -------------------- End Search ----------------- */
+
+#Recipes {
+    background-color: #CFF4FC;
+    color: #465179;
+}
+
+p {
+    max-height: 100px;
+    overflow: hidden;
+}
